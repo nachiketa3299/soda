@@ -1,5 +1,5 @@
 #include <cstdint>
 
-struct Color {
+struct Color8 {
     uint8_t r, g, b;
 };
