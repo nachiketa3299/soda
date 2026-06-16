@@ -1,7 +1,12 @@
 # Build outputs
-out/
 build/
-cmake-build-*/
+build-release/
+
+# clangd index
+.cache/
+
+# Rendered output
+*.ppm
 
 # Visual Studio
 .vs/
@@ -9,9 +14,6 @@ cmake-build-*/
 *.user
 *.opendb
 *.sdf
-
-# VS Code
-.vscode/
 
 # CLion / JetBrains
 .idea/
