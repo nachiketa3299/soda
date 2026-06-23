@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 project(Soda LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -14,6 +14,9 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-add_subdirectory(SodaTinyLib)
 add_subdirectory(ConfigTest)
-add_subdirectory(SodaTinyBin)
+
+add_subdirectory(SodaLib)
+add_subdirectory(SodaBin)
+add_subdirectory(SodaWindow)
+add_subdirectory(SodaApp)

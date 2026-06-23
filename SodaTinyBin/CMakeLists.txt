@@ -1,2 +1,0 @@
-add_subdirectory(LineRenderer)
-add_subdirectory(TriangleRenderer)
